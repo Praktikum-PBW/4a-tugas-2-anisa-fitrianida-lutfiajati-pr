@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa Baru</title>
+    <link rel="stylesheet" href="FormStyle.css">
+    <link href="<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formpen">
+        <h1 id="h1">Pendaftaran Mahasiswa Baru</h1>
+    <form id="form" action="#">
+        <label for="npm">NPM (Nomor Pokok Mahasiswa)</label><br>
+        <input type="text" name="npm" id="npm" placeholder="Masukan NPM Anda">
+        <br>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" name="nama" id="nama" placeholder="Masukan Nama Lengkap Anda">
+        <br>
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" cols="30" rows="3" placeholder="Masukan Alamat Anda"></textarea>
+        <br>
+        <label for="jk">Jenis Kelamin</label><br>
+        <input type="radio" name="jk" id="jk" value="Laki-Laki">Laki-Laki <br>
+        <input type="radio" name="jk" id="jk" value="Perempuan">Perempuan <br>
+
+        <label for="prodi">Program Studi</label><br>
+        <select name="prodi" id="prodi">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+            <option value="Bisnis dan Manajemen">Bisnis dan Manajemen</option>
+            <option value="Farmasi">Farmasi</option>
+        </select>
+        <br><br>
+        <button id="btTambah">Tambah</button>
+    </form>
+    </div>
+</body>
+
+</html>

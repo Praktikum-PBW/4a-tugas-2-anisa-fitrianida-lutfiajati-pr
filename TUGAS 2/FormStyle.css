@@ -1,0 +1,58 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#h1 {
+    text-align: center;
+}
+
+.formpen {
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+}
+
+label {
+    width: 100%;
+    padding: 4px;
+    line-height: 40px;
+}
+
+input[type=text],
+select {
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 25px;
+    margin: 5px auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#alamat {
+    line-height: 25px;
+    margin-bottom: 10px;
+    width: 580px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#jk {
+    line-height: 25px;
+    margin-bottom: 10px;
+
+}
+
+#btTambah {
+    height: 30px;
+    width: 80px;
+    margin: 5px auto;
+    color: aliceblue;
+    background-color: rgb(51, 150, 241);
+    border: 0;
+    border-radius: 5px;
+}
